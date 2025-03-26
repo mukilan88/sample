@@ -6,12 +6,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    // "build": "vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "Predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+    // "build": "react-scripts build"
   },
   "dependencies": {
     "-": "^0.0.1",
